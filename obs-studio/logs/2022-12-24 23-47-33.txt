@@ -1,0 +1,134 @@
+23:47:33.437: Platform: Wayland
+23:47:33.438: CPU Name: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz
+23:47:33.438: CPU Speed: 4091.662MHz
+23:47:33.438: Physical Cores: 4, Logical Cores: 4
+23:47:33.438: Physical Memory: 15940MB Total, 13697MB Free
+23:47:33.438: Kernel Version: Linux 6.1.1-arch1-1
+23:47:33.438: Distribution: "Arch Linux" Unknown
+23:47:33.438: Session Type: wayland
+23:47:33.439: Qt Version: 6.4.1 (runtime), 6.4.1 (compiled)
+23:47:33.439: Portable mode: false
+23:47:33.553: OBS 28.1.2-2 (linux)
+23:47:33.553: ---------------------------------
+23:47:33.558: ---------------------------------
+23:47:33.558: audio settings reset:
+23:47:33.558: 	samples per sec: 48000
+23:47:33.558: 	speakers:        2
+23:47:33.558: 	max buffering:   960 milliseconds
+23:47:33.558: 	buffering type:  dynamically increasing
+23:47:33.566: ---------------------------------
+23:47:33.566: Initializing OpenGL...
+23:47:33.566: Using EGL/Wayland
+23:47:33.658: Initialized EGL 1.5
+23:47:33.701: Loading up OpenGL on adapter nouveau NV124
+23:47:33.701: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 22.3.1, shading language 4.30
+23:47:33.806: ---------------------------------
+23:47:33.806: video settings reset:
+23:47:33.806: 	base resolution:   1920x1080
+23:47:33.806: 	output resolution: 1280x720
+23:47:33.806: 	downscale filter:  Bicubic
+23:47:33.806: 	fps:               30/1
+23:47:33.806: 	format:            NV12
+23:47:33.806: 	YUV mode:          Rec. 709/Partial
+23:47:33.806: NV12 texture support not available
+23:47:33.806: P010 texture support not available
+23:47:33.808: Audio monitoring device:
+23:47:33.808: 	name: Standard
+23:47:33.808: 	id: default
+23:47:33.808: ---------------------------------
+23:47:33.819: Failed to load 'en-US' text for module: 'decklink-captions.so'
+23:47:33.826: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+23:47:33.833: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:47:33.833: Failed to initialize module 'decklink.so'
+23:47:34.081: [pipewire] Available captures:
+23:47:34.081: [pipewire]     - Desktop capture
+23:47:34.143: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
+23:47:34.143: 
+23:47:34.143: FFMPEG VAAPI supported
+23:47:34.220: ---------------------------------
+23:47:34.220:   Loaded Modules:
+23:47:34.220:     text-freetype2.so
+23:47:34.220:     rtmp-services.so
+23:47:34.220:     obs-x264.so
+23:47:34.220:     obs-vst.so
+23:47:34.220:     obs-transitions.so
+23:47:34.220:     obs-outputs.so
+23:47:34.220:     obs-libfdk.so
+23:47:34.220:     obs-filters.so
+23:47:34.220:     obs-ffmpeg.so
+23:47:34.220:     linux-v4l2.so
+23:47:34.220:     linux-pulseaudio.so
+23:47:34.220:     linux-pipewire.so
+23:47:34.220:     linux-jack.so
+23:47:34.220:     linux-capture.so
+23:47:34.220:     linux-alsa.so
+23:47:34.220:     image-source.so
+23:47:34.220:     frontend-tools.so
+23:47:34.220:     decklink-output-ui.so
+23:47:34.220:     decklink-captions.so
+23:47:34.220: ---------------------------------
+23:47:34.221: ==== Startup complete ===============================================
+23:47:34.242: All scene data cleared
+23:47:34.242: ------------------------------------------------
+23:47:34.251: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.63) 15.0.0'
+23:47:34.252: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+23:47:34.252: pulse-input: Started recording from 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor' (default)
+23:47:34.253: [Loaded global audio device]: 'Desktop-Audio'
+23:47:34.263: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.63) 15.0.0'
+23:47:34.269: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+23:47:34.269: pulse-input: Started recording from 'alsa_input.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo' (default)
+23:47:34.269: [Loaded global audio device]: 'Mikrofon-/AUX-Audio'
+23:47:34.282: [Media Source 'Medienquelle']: settings:
+23:47:34.282: 	input:                   /home/ju/Freestyle Dance Teacher - 4k green screen loopable meme Renata Bliss [X8-BW_FPwyw].mp4
+23:47:34.282: 	input_format:            (null)
+23:47:34.282: 	speed:                   100
+23:47:34.282: 	is_looping:              yes
+23:47:34.282: 	is_linear_alpha:         no
+23:47:34.282: 	is_hw_decoding:          no
+23:47:34.282: 	is_clear_on_media_end:   yes
+23:47:34.282: 	restart_on_activate:     yes
+23:47:34.282: 	close_when_inactive:     no
+23:47:34.282: 	ffmpeg_options:          
+23:47:34.284: v4l2-input: Start capture from /dev/video2
+23:47:34.284: v4l2-input: Unable to open device
+23:47:34.284: v4l2-input: Initialization failed, errno: Datei oder Verzeichnis nicht gefunden
+23:47:34.284: Switched to scene 'Szene'
+23:47:34.284: ------------------------------------------------
+23:47:34.284: Loaded scenes:
+23:47:34.284: - scene 'Szene':
+23:47:34.284:     - source: 'Medienquelle' (ffmpeg_source)
+23:47:34.284:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+23:47:34.284:     - source: 'Videoaufnahmegerät (V4L2)' (v4l2_input)
+23:47:34.284: ------------------------------------------------
+23:47:34.291: Set FFmpeg options: 
+23:47:34.797: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop-Audio)
+23:47:34.797: 
+23:47:43.513: User Removed source 'Videoaufnahmegerät (V4L2)' (v4l2_input) from scene 'Szene'
+23:47:48.363: PipeWire initialized
+23:47:48.370: User added source 'Bildschirmaufnahme (PipeWire)' (pipewire-desktop-capture-source) to scene 'Szene'
+23:47:48.390: [pipewire] Screencast session created
+23:47:50.011: [pipewire] Asking for desktop
+23:47:50.043: [pipewire] desktop selected, setting up screencast
+23:47:50.049: [pipewire] Server version: 0.3.63
+23:47:50.049: [pipewire] Library version: 0.3.63
+23:47:50.049: [pipewire] Header version: 0.3.61
+23:47:50.049: [pipewire] Created stream 0x55a6947bdc70
+23:47:50.049: [pipewire] Stream 0x55a6947bdc70 state: "connecting" (error: none)
+23:47:50.049: [pipewire] Playing stream 0x55a6947bdc70
+23:47:50.050: [pipewire] Stream 0x55a6947bdc70 state: "paused" (error: none)
+23:47:50.053: [pipewire] Negotiated format:
+23:47:50.053: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:47:50.053: [pipewire]     Modifier: 0
+23:47:50.053: [pipewire]     Size: 2560x1440
+23:47:50.053: [pipewire]     Framerate: 0/1
+23:47:50.053: [pipewire] Negotiated format:
+23:47:50.053: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+23:47:50.053: [pipewire]     Modifier: 216172782119018516
+23:47:50.053: [pipewire]     Size: 2560x1440
+23:47:50.053: [pipewire]     Framerate: 0/1
+23:47:50.054: [pipewire] Stream 0x55a6947bdc70 state: "streaming" (error: none)
+23:48:48.199: NV12 texture support not available
+23:48:48.199: P010 texture support not available
+23:48:48.202: Virtual camera started
+23:48:48.204: ==== Virtual Camera Start ==========================================
+23:48:48.207: Failed to inhibit: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Keine derartige Schnittstelle »org.freedesktop.portal.Inhibit« des Objekts im Pfad /org/freedesktop/portal/desktop

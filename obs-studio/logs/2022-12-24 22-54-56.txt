@@ -1,0 +1,177 @@
+22:54:56.850: Platform: Wayland
+22:54:56.850: CPU Name: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz
+22:54:56.850: CPU Speed: 4006.667MHz
+22:54:56.850: Physical Cores: 4, Logical Cores: 4
+22:54:56.850: Physical Memory: 15940MB Total, 8689MB Free
+22:54:56.850: Kernel Version: Linux 6.1.1-arch1-1
+22:54:56.850: Distribution: "Arch Linux" Unknown
+22:54:56.850: Session Type: wayland
+22:54:56.856: Qt Version: 6.4.1 (runtime), 6.4.1 (compiled)
+22:54:56.856: Portable mode: false
+22:54:56.895: OBS 28.1.2-2 (linux)
+22:54:56.895: ---------------------------------
+22:54:56.896: ---------------------------------
+22:54:56.896: audio settings reset:
+22:54:56.896: 	samples per sec: 48000
+22:54:56.896: 	speakers:        2
+22:54:56.896: 	max buffering:   960 milliseconds
+22:54:56.896: 	buffering type:  dynamically increasing
+22:54:56.897: ---------------------------------
+22:54:56.897: Initializing OpenGL...
+22:54:56.897: Using EGL/Wayland
+22:54:56.939: Initialized EGL 1.5
+22:54:56.958: Loading up OpenGL on adapter nouveau NV124
+22:54:56.958: OpenGL loaded successfully, version 4.3 (Core Profile) Mesa 22.3.1, shading language 4.30
+22:54:56.988: ---------------------------------
+22:54:56.988: video settings reset:
+22:54:56.988: 	base resolution:   1920x1080
+22:54:56.988: 	output resolution: 1280x720
+22:54:56.988: 	downscale filter:  Bicubic
+22:54:56.988: 	fps:               30/1
+22:54:56.988: 	format:            NV12
+22:54:56.988: 	YUV mode:          Rec. 709/Partial
+22:54:56.988: NV12 texture support not available
+22:54:56.988: P010 texture support not available
+22:54:56.989: Audio monitoring device:
+22:54:56.989: 	name: Standard
+22:54:56.989: 	id: default
+22:54:56.989: ---------------------------------
+22:54:56.995: Failed to load 'en-US' text for module: 'decklink-captions.so'
+22:54:57.002: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+22:54:57.009: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+22:54:57.009: Failed to initialize module 'decklink.so'
+22:54:57.217: [pipewire] Available captures:
+22:54:57.217: [pipewire]     - Desktop capture
+22:54:57.270: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: Kann die Shared-Object-Datei nicht öffnen: Datei oder Verzeichnis nicht gefunden
+22:54:57.270: 
+22:54:57.270: FFMPEG VAAPI supported
+22:54:57.388: ---------------------------------
+22:54:57.388:   Loaded Modules:
+22:54:57.388:     text-freetype2.so
+22:54:57.388:     rtmp-services.so
+22:54:57.388:     obs-x264.so
+22:54:57.388:     obs-vst.so
+22:54:57.388:     obs-transitions.so
+22:54:57.388:     obs-outputs.so
+22:54:57.388:     obs-libfdk.so
+22:54:57.388:     obs-filters.so
+22:54:57.388:     obs-ffmpeg.so
+22:54:57.388:     linux-v4l2.so
+22:54:57.388:     linux-pulseaudio.so
+22:54:57.388:     linux-pipewire.so
+22:54:57.388:     linux-jack.so
+22:54:57.388:     linux-capture.so
+22:54:57.388:     linux-alsa.so
+22:54:57.388:     image-source.so
+22:54:57.388:     frontend-tools.so
+22:54:57.388:     decklink-output-ui.so
+22:54:57.388:     decklink-captions.so
+22:54:57.388: ---------------------------------
+22:54:57.388: ==== Startup complete ===============================================
+22:54:57.429: All scene data cleared
+22:54:57.429: ------------------------------------------------
+22:54:57.444: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.63) 15.0.0'
+22:54:57.444: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+22:54:57.444: pulse-input: Started recording from 'alsa_output.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo.monitor' (default)
+22:54:57.445: [Loaded global audio device]: 'Desktop-Audio'
+22:54:57.449: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.63) 15.0.0'
+22:54:57.449: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+22:54:57.449: pulse-input: Started recording from 'alsa_input.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00.analog-stereo' (default)
+22:54:57.449: [Loaded global audio device]: 'Mikrofon-/AUX-Audio'
+22:54:57.450: Switched to scene 'Szene'
+22:54:57.450: ------------------------------------------------
+22:54:57.450: Loaded scenes:
+22:54:57.450: - scene 'Szene':
+22:54:57.450: ------------------------------------------------
+22:54:58.005: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop-Audio)
+22:54:58.005: 
+22:55:04.598: PipeWire initialized
+22:55:04.601: User added source 'Bildschirmaufnahme (PipeWire)' (pipewire-desktop-capture-source) to scene 'Szene'
+22:55:04.613: [pipewire] Screencast session created
+22:55:06.205: [pipewire] Asking for desktop
+22:55:06.207: [pipewire] desktop selected, setting up screencast
+22:55:06.213: [pipewire] Server version: 0.3.63
+22:55:06.214: [pipewire] Library version: 0.3.63
+22:55:06.214: [pipewire] Header version: 0.3.61
+22:55:06.214: [pipewire] Created stream 0x55bdcbdd6850
+22:55:06.214: [pipewire] Stream 0x55bdcbdd6850 state: "connecting" (error: none)
+22:55:06.214: [pipewire] Playing stream 0x55bdcbdd6850
+22:55:06.214: [pipewire] Stream 0x55bdcbdd6850 state: "paused" (error: none)
+22:55:06.217: [pipewire] Negotiated format:
+22:55:06.217: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+22:55:06.217: [pipewire]     Modifier: 0
+22:55:06.217: [pipewire]     Size: 2560x1440
+22:55:06.217: [pipewire]     Framerate: 0/1
+22:55:06.218: [pipewire] Negotiated format:
+22:55:06.218: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+22:55:06.218: [pipewire]     Modifier: 216172782119018516
+22:55:06.218: [pipewire]     Size: 2560x1440
+22:55:06.218: [pipewire]     Framerate: 0/1
+22:55:06.220: [pipewire] Stream 0x55bdcbdd6850 state: "streaming" (error: none)
+22:56:26.141: [Media Source 'Medienquelle']: settings:
+22:56:26.141: 	input:                   
+22:56:26.141: 	input_format:            (null)
+22:56:26.141: 	speed:                   100
+22:56:26.141: 	is_looping:              no
+22:56:26.141: 	is_linear_alpha:         no
+22:56:26.141: 	is_hw_decoding:          no
+22:56:26.141: 	is_clear_on_media_end:   yes
+22:56:26.141: 	restart_on_activate:     yes
+22:56:26.141: 	close_when_inactive:     no
+22:56:26.141: 	ffmpeg_options:          
+22:56:26.143: User added source 'Medienquelle' (ffmpeg_source) to scene 'Szene'
+22:56:46.589: [Media Source 'Medienquelle']: settings:
+22:56:46.589: [Media Source 'Medienquelle']: settings:
+22:56:46.589: Set FFmpeg options: 
+22:56:46.589: 	input:                   /home/ju/Freestyle Dance Teacher [ZkNMZlkrzaU].webm
+22:56:46.589: 	input_format:            (null)
+22:56:46.589: 	speed:                   100
+22:56:46.589: 	is_looping:              yes
+22:56:46.589: 	is_linear_alpha:         no
+22:56:46.589: 	is_hw_decoding:          no
+22:56:46.589: 	is_clear_on_media_end:   yes
+22:56:46.589: 	restart_on_activate:     yes
+22:56:46.589: 	close_when_inactive:     no
+22:56:46.589: 	ffmpeg_options:          
+22:56:56.359: [pipewire] Stream 0x55bdcbdd6850 state: "paused" (error: none)
+22:57:08.044: User Removed source 'Medienquelle' (ffmpeg_source) from scene 'Szene'
+22:57:30.500: [Media Source 'Medienquelle']: settings:
+22:57:30.500: 	input:                   
+22:57:30.500: 	input_format:            (null)
+22:57:30.500: 	speed:                   100
+22:57:30.500: 	is_looping:              no
+22:57:30.500: 	is_linear_alpha:         no
+22:57:30.500: 	is_hw_decoding:          no
+22:57:30.500: 	is_clear_on_media_end:   yes
+22:57:30.500: 	restart_on_activate:     yes
+22:57:30.500: 	close_when_inactive:     no
+22:57:30.500: 	ffmpeg_options:          
+22:57:30.504: User added source 'Medienquelle' (ffmpeg_source) to scene 'Szene'
+23:00:20.357: [Media Source 'Medienquelle']: settings:
+23:00:20.357: 	input:                   /home/ju/Freestyle Dance Teacher - 4k green screen loopable meme Renata Bliss [X8-BW_FPwyw].mp4
+23:00:20.357: 	input_format:            (null)
+23:00:20.357: 	speed:                   100
+23:00:20.357: 	is_looping:              no
+23:00:20.357: 	is_linear_alpha:         no
+23:00:20.357: 	is_hw_decoding:          no
+23:00:20.357: 	is_clear_on_media_end:   yes
+23:00:20.357: 	restart_on_activate:     yes
+23:00:20.357: 	close_when_inactive:     no
+23:00:20.357: 	ffmpeg_options:          
+23:00:20.359: Set FFmpeg options: 
+23:01:05.309: [Media Source 'Medienquelle']: settings:
+23:01:05.309: 	input:                   /home/ju/Freestyle Dance Teacher - 4k green screen loopable meme Renata Bliss [X8-BW_FPwyw].mp4
+23:01:05.309: 	input_format:            (null)
+23:01:05.309: 	speed:                   100
+23:01:05.309: 	is_looping:              yes
+23:01:05.309: 	is_linear_alpha:         no
+23:01:05.309: 	is_hw_decoding:          no
+23:01:05.309: 	is_clear_on_media_end:   yes
+23:01:05.309: 	restart_on_activate:     yes
+23:01:05.309: 	close_when_inactive:     no
+23:01:05.309: 	ffmpeg_options:          
+23:01:05.309: Set FFmpeg options: 
+23:03:36.785: User added filter 'Chroma Key' (chroma_key_filter_v2) to source 'Medienquelle'
+23:03:51.258: [pipewire] Stream 0x55bdcbdd6850 state: "streaming" (error: none)
+23:04:37.862: NV12 texture support not available
+23:04:37.862: P010 texture support not available

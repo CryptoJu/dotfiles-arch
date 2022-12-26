@@ -1,0 +1,16 @@
+LSP Notebooks experiment is enabled
+LSP Notebooks interactive window support is enabled
+> conda info --json
+Pfad zum Python-Interpreter: /bin/python
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+> /sbin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+> /usr/bin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+> /usr/sbin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/get_output_via_markers.py ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/interpreterInfo.py
+Starten des Pylance-Sprachservers.
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/normalizeSelection.py
+Send text to terminal: /bin/python
+Send text to terminal: cmd = f"yt-dlp -x -f bestaudio 'https://www.youtube.com/watch?v=lQyh8T9JvCo &"
+
+> /bin/python ~/.vscode/extensions/ms-python.python-2022.20.1/pythonFiles/normalizeSelection.py
+Send text to terminal: MUSIC_PATH, PLAYLIST_PATH = Path('~/'), Path('~/Playlists'),
+

@@ -1,0 +1,50 @@
+2022-12-22 21:06:34.000 [info] Starting worker process with pid 897667 (type: fileWatcher, window: 1).
+2022-12-22 21:06:37.246 [warning] No ptyHost heartbeat after 6 seconds
+2022-12-22 21:08:12.400 [info] Getting Manifest... ms-python.python
+2022-12-22 21:08:12.458 [info] Installing extension: ms-python.python
+2022-12-22 21:08:12.839 [info] Getting Manifest... ms-toolsai.jupyter
+2022-12-22 21:08:13.334 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2022-12-22 21:08:13.646 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2022-12-22 21:08:13.940 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2022-12-22 21:08:14.242 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2022-12-22 21:08:14.549 [info] Getting Manifest... ms-python.isort
+2022-12-22 21:08:14.944 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2022-12-22 21:08:14.945 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2022-12-22 21:08:14.945 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2022-12-22 21:08:14.945 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2022-12-22 21:08:14.945 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2022-12-22 21:08:14.945 [info] Installing extension: ms-python.isort ms-python.python
+2022-12-22 21:08:16.106 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.40a8e378-a518-448f-aea5-ba8545908b98: ms-toolsai.jupyter-keymap
+2022-12-22 21:08:16.113 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.0.0-universal
+2022-12-22 21:08:16.115 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2022-12-22 21:08:16.151 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.02a9922e-d853-49c7-b2b3-aaf5e270921d: ms-toolsai.vscode-jupyter-slideshow
+2022-12-22 21:08:16.206 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2022-12-22 21:08:16.210 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2022-12-22 21:08:16.694 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.9da6bbfd-51ab-4cf7-97dc-36f6c70f2d2d: ms-toolsai.vscode-jupyter-cell-tags
+2022-12-22 21:08:16.700 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6-universal
+2022-12-22 21:08:16.702 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2022-12-22 21:08:16.834 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.5d792d01-0ea8-4d77-8f1f-309f25b8b0ec: ms-toolsai.jupyter-renderers
+2022-12-22 21:08:16.839 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.12-universal
+2022-12-22 21:08:16.840 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2022-12-22 21:08:18.308 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.d005180f-e3be-46c6-b671-06e0bbff8aa8: ms-toolsai.jupyter
+2022-12-22 21:08:18.313 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal
+2022-12-22 21:08:18.330 [info] Extracting completed. ms-toolsai.jupyter
+2022-12-22 21:08:20.641 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.35b828b3-bb45-405d-9dcb-30128c8eb943: ms-python.python
+2022-12-22 21:08:20.661 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal
+2022-12-22 21:08:20.670 [info] Extracting completed. ms-python.python
+2022-12-22 21:08:21.685 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.fdd12efa-6bfc-4660-b8e9-feed9d65b776: ms-python.isort
+2022-12-22 21:08:21.691 [info] Renamed to /home/ju/.vscode-oss/extensions/ms-python.isort-2022.8.0-universal
+2022-12-22 21:08:21.694 [info] Extracting completed. ms-python.isort
+2022-12-22 21:08:21.710 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2022-12-22 21:08:21.710 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2022-12-22 21:08:21.710 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2022-12-22 21:08:21.711 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2022-12-22 21:08:21.711 [info] Extension installed successfully: ms-toolsai.jupyter
+2022-12-22 21:08:21.711 [info] Extension installed successfully: ms-python.python
+2022-12-22 21:08:21.711 [info] Extension installed successfully: ms-python.isort
+2022-12-22 21:08:33.643 [info] Getting Manifest... golang.go
+2022-12-22 21:08:33.691 [info] Installing extension: golang.go
+2022-12-22 21:08:34.427 [info] Extracted extension to /home/ju/.vscode-oss/extensions/.aa38fac6-c9d4-418c-b9b8-81df12a1d13b: golang.go
+2022-12-22 21:08:34.433 [info] Renamed to /home/ju/.vscode-oss/extensions/golang.go-0.37.0-universal
+2022-12-22 21:08:34.435 [info] Extracting completed. golang.go
+2022-12-22 21:08:34.443 [info] Extension installed successfully: golang.go

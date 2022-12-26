@@ -1,0 +1,53 @@
+2022-12-25 00:08:42.257 [error] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, telemetryLogger'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:08:42.274 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:08:42.275 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:08:42.430 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2022-12-25 00:08:45.482 [info] [perf] Render performance baseline is 103ms
+2022-12-25 00:08:52.239 [error] Error while registering log channel file:///home/ju/.config/Code%20-%20OSS/logs/20221225T000840/userDataSync.log Timed out while waiting for file to be created
+2022-12-25 00:09:03.784 [error] Extension 'ms-python.python CANNOT USE these API proposals 'quickPickSortByLabel, testObserver, telemetryLogger'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:09:03.784 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookControllerKind, notebookDeprecated, notebookMessaging, notebookMime, notebookCellExecutionState, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, notebookControllerAffinityHidden'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:09:03.785 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:09:03.868 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2022-12-25 00:09:06.317 [info] [perf] Render performance baseline is 44ms
+2022-12-25 00:09:07.154 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2022-12-25 00:09:07.220 [error] [ms-toolsai.jupyter]: notebook/kernelSource is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["notebookKernelSource"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+2022-12-25 00:09:13.934 [error] Error while registering log channel file:///home/ju/.config/Code%20-%20OSS/logs/20221225T000840/userDataSync.log Timed out while waiting for file to be created
+2022-12-25 00:09:15.834 [error] [Extension Host] extension activation failed Error: Extension 'ms-toolsai.jupyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.json#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.jupyter
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:43999)
+	at d.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:51550)
+	at new S (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:207218)
+	at t.resolveInstance (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297910)
+	at /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298766
+	at Array.map (<anonymous>)
+	at /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1298738
+	at Array.map (<anonymous>)
+	at t.resolveInstance (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1297684)
+	at /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1299848
+	at t.resolve (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1300111)
+	at /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283524
+	at e._get (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1283290)
+	at e.get (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:1281933)
+	at a.get (/home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:50621)
+	at /home/ju/.vscode-oss/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:4923
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2022-12-25 00:09:16.832 [error] Activating extension 'ms-python.python' failed: Extension 'ms-python.python' CANNOT use API proposal: telemetryLogger.
+Its package.json#enabledApiProposals-property declares:  but NOT telemetryLogger.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python.: Error: Extension 'ms-python.python' CANNOT use API proposal: telemetryLogger.
+Its package.json#enabledApiProposals-property declares:  but NOT telemetryLogger.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:90:43999)
+	at Object.createTelemetryLogger (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:31959)
+	at new t.BaseTelemetryReporter (/home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:1130142)
+	at new h (/home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:1135280)
+	at /home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:695634
+	at c (/home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:695710)
+	at y.activate (/home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:157356)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async /home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:3096130
+	at async e (/home/ju/.vscode-oss/extensions/ms-python.python-2022.20.1-universal/out/client/extension.js:2:3095744)
+	at async v.n (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:7006)
+	at async v.m (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6969)
+	at async v.l (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:92:6426)

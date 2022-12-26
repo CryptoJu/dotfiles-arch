@@ -1,0 +1,6 @@
+2022-12-25 00:19:52.648 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ju/.vscode/extensions
+2022-12-25 00:19:52.799 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ju/.vscode/extensions
+2022-12-25 00:19:55.522 [info] [perf] Render performance baseline is 39ms
+2022-12-25 00:20:13.294 [info] [perf] Render performance baseline is 32ms
+2022-12-25 00:20:17.132 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+2022-12-25 00:20:17.475 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}

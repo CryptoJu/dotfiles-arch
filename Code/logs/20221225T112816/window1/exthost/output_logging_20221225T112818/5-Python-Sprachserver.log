@@ -1,0 +1,146 @@
+[Info  - 11:28:21] (25174) Pylance language server 2022.12.20 (pyright 621d886b) starting
+[Info  - 11:28:21] (25174) Server root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist
+[Info  - 11:28:21] (25174) Starting service instance "Code"
+[Info  - 11:28:22] (25174) Notebook support: LSP
+[Info  - 11:28:22] (25174) Interactive window support: LSP
+[Info  - 11:28:22] (25174) No configuration file found.
+[Info  - 11:28:22] (25174) No pyproject.toml file found.
+[Info  - 11:28:22] (25174) Setting pythonPath for service "Code": "/bin/python"
+[Warn  - 11:28:22] (25174) stubPath /home/ju/Code/typings is not a valid directory.
+[Info  - 11:28:22] (25174) Assuming Python version 3.10
+[Info  - 11:28:22] (25174) Assuming Python platform Linux
+[Info  - 11:28:22] (25174) Searching for source files
+[Info  - 11:28:22] (25174) Found 1 source file
+[Info  - 11:28:22] (25174) Background analysis(1) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist
+[Info  - 11:28:22] (25174) Background analysis(1) started
+[Info  - 11:28:22] (25174) Indexer background runner(2) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist (index)
+[Info  - 11:28:22] (25174) Indexing(2) started
+[Info  - 11:28:23] (25174) scanned(2) 37 files over 1 exec env
+[Info  - 11:28:25] (25174) indexed(2) 17 files over 1 exec env
+[Info  - 11:28:25] (25174) Indexing finished(2).
+[Error - 11:37:07] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Info  - 12:20:48] (25174) Searching for source files
+[Info  - 12:20:48] (25174) No source files found.
+[Info  - 12:21:21] (25174) Searching for source files
+[Info  - 12:21:21] (25174) Found 1 source file
+[Info  - 12:39:33] (25174) Indexer background runner(3) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist (refresh)
+[Info  - 12:39:33] (25174) Indexing(3) started
+[Info  - 12:39:34] (25174) scanned(3) 46 files over 1 exec env
+[Info  - 12:39:36] (25174) indexed(3) 24 files over 1 exec env
+[Info  - 12:39:36] (25174) Indexing finished(3).
+[Error - 14:50:01] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 14:52:12] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:26:15] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:26:16] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:26:23] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:26:25] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:42:33] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:42:33] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 16:42:34] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:18] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:19] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:20] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:21] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:22] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:22] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:23] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 17:21:24] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:14] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:49] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:53] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:53] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:54] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:55] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:55] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:55] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:56] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:57] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:57] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:57] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:58] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:46:59] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:00] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:01] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:01] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:02] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:02] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:03] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 
+[Error - 19:47:03] Request textDocument/foldingRange failed.
+  Message: Request textDocument/foldingRange failed with message: index is out of range
+  Code: -32603 

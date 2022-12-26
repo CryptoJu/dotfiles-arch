@@ -1,0 +1,28 @@
+Visual Studio Code (1.74.2, undefined, desktop)
+Jupyter Extension Version: 2022.11.1003412109.
+Python Extension Version: 2022.20.1.
+Workspace folder /home/ju/Code
+info 00:20:51.502: ZMQ install verified.
+info 00:20:52.212: LSP Notebooks experiment is enabled
+info 00:20:52.295: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 00:20:52.321: Process Execution: > jupyter lab --version
+> jupyter lab --version
+info 00:20:53.039: Got empty env vars with python /usr/bin/python in 44ms
+info 00:20:53.053: Process Execution: > /usr/bin/python -m pip list
+> /usr/bin/python -m pip list
+info 00:20:53.141: Process Execution: > /usr/bin/python -c "import pip"
+> /usr/bin/python -c "import pip"
+error 00:20:53.193: interpreterPackages getPackageInformation, Class name = r, completed in 200ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/usr/bin/python","sysPrefix":"/usr","displayPath":{"$mid":1,"path":"/usr/bin/python","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/usr/bin/python","external":"file:///usr/bin/python","path":"/usr/bin/python","scheme":"file"},"displayName":"","envType":"Unknown","version":{"major":3,"minor":10,"patch":9,"raw":"3.10.9 (main, Dec 19 2022, 17:35:49) [GCC 12.2.0]"}}} [i [Error]: Module 'pip' not installed.
+	at l.execModule (/home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:82791)
+	at async r.getPackageInformation (/home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:42188)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 00:43:28.974: Shutting down notebooks for eebe2481-5bcd-4e01-9922-1b3363601f53
+info 00:43:28.974: Disposing HostJupyterExecution 575203be-159d-4855-b7e1-a48b0f7b7806
+info 00:43:28.974: Disposing super HostJupyterExecution 575203be-159d-4855-b7e1-a48b0f7b7806
+info 00:43:28.974: Disposing HostJupyterExecution 575203be-159d-4855-b7e1-a48b0f7b7806
+info 00:43:28.974: Finished disposing HostJupyterExecution  575203be-159d-4855-b7e1-a48b0f7b7806
+info 00:43:28.988: Cleaning up server cache 575203be-159d-4855-b7e1-a48b0f7b7806
+info 00:43:28.989: Finished disposing HostJupyterExecution  575203be-159d-4855-b7e1-a48b0f7b7806

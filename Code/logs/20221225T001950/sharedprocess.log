@@ -1,0 +1,10 @@
+2022-12-25 00:19:54.007 [info] Starting worker process with pid 397635 (type: fileWatcher, window: 1).
+2022-12-25 00:20:09.743 [info] Worker process with pid 397635 terminated normally (type: fileWatcher, window: 1).
+2022-12-25 00:20:10.802 [info] Starting worker process with pid 400860 (type: fileWatcher, window: 1).
+2022-12-25 00:20:16.909 [info] Getting Manifest... ms-ceintl.vscode-language-pack-de
+2022-12-25 00:20:17.422 [info] Installing extension: ms-ceintl.vscode-language-pack-de
+2022-12-25 00:20:18.706 [info] Extracted extension to /home/ju/.vscode/extensions/.2d5ec95c-5122-4a48-9d34-6f7990fd7966: ms-ceintl.vscode-language-pack-de
+2022-12-25 00:20:18.718 [info] Renamed to /home/ju/.vscode/extensions/ms-ceintl.vscode-language-pack-de-1.74.12140926
+2022-12-25 00:20:18.718 [info] Extracting completed. ms-ceintl.vscode-language-pack-de
+2022-12-25 00:20:18.730 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-de
+2022-12-25 00:20:18.808 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-de
