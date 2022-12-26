@@ -1,4 +1,0 @@
-2022-12-23 10:42:49.080 [info] update#ctor - updates are disabled as there is no update URL
-2022-12-23 10:42:50.950 [info] Starting extension host with pid 117540 (fork() took 6 ms).
-2022-12-23 10:50:05.010 [info] Waiting for extension host with pid 117540 to exit.
-2022-12-23 10:50:05.039 [info] Extension host with pid 117540 exited with code: 0, signal: null.
