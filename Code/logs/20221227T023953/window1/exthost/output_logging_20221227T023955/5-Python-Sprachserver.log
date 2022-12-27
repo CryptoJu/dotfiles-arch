@@ -1,0 +1,17 @@
+[Info  - 02:39:58] (22752) Pylance language server 2022.12.20 (pyright 621d886b) starting
+[Info  - 02:39:58] (22752) Server root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist
+[Info  - 02:39:58] (22752) Starting service instance "Code"
+[Info  - 02:39:58] (22752) Notebook support: LSP
+[Info  - 02:39:58] (22752) Interactive window support: LSP
+[Info  - 02:39:58] (22752) No configuration file found.
+[Info  - 02:39:58] (22752) No pyproject.toml file found.
+[Info  - 02:39:58] (22752) Setting pythonPath for service "Code": "/bin/python"
+[Warn  - 02:39:58] (22752) stubPath /home/ju/Code/typings is not a valid directory.
+[Info  - 02:39:58] (22752) Assuming Python version 3.10
+[Info  - 02:39:58] (22752) Assuming Python platform Linux
+[Info  - 02:39:58] (22752) Searching for source files
+[Info  - 02:39:58] (22752) Found 1 source file
+[Info  - 02:39:58] (22752) Background analysis(1) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist
+[Info  - 02:39:58] (22752) Background analysis(1) started
+[Info  - 02:39:59] (22752) Indexer background runner(2) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2022.12.20/dist (index)
+[Info  - 02:39:59] (22752) Indexing(2) started

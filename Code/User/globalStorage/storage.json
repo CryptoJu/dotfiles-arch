@@ -47,7 +47,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Geschlossenen Editor erneut öffnen"
+                                    "label": "&&Geschlossenen Editor erneut öffnen",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -133,6 +134,13 @@
                         "label": "Freigeben",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Profil exportieren (Standard)...",
@@ -687,7 +695,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Position der letzten Bearbeitung"
+                        "label": "&&Position der letzten Bearbeitung",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1592,7 +1601,7 @@
                 "mode": 1,
                 "x": 1940,
                 "y": 62,
-                "width": 1247,
+                "width": 2520,
                 "height": 1358
             }
         },

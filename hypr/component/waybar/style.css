@@ -69,6 +69,7 @@ window#waybar {
 #custom-cycle_wall,
 #custom-ss,
 #custom-dynamic_pill,
+#custom-waybar-mpris,
 #mpd {
     padding: 0 10px;
     border-radius: 15px;
@@ -157,6 +158,24 @@ window#waybar {
     font-size: 15px;
     padding-top: 5px;
     padding-right: 21px;
+    font-weight: bolder;
+    padding-left: 20px
+}
+
+#custom-waybar-mpris {
+    background: rgb(245,194,231);
+    background: linear-gradient(45deg, rgba(245,194,231,1) 0%, rgba(203,166,247,1) 64%, rgba(202,158,230,1) 100%);
+    box-shadow: rgba(0, 0, 0, 0.288) 2 2 5 2px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    margin-right: 25px;
+    color: #fff ;
+    background-size: 300% 300%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.377);
+    animation: gradient 20s ease infinite;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-right: 21px;
+    font-family: "Courier New";
     font-weight: bolder;
     padding-left: 20px
 }

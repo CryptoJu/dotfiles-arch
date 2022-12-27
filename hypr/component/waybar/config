@@ -9,7 +9,7 @@
     // "margin-right":25,
     "margin-bottom":-11,
     //"margin-top":5,
-    "modules-left": ["wlr/workspaces"],
+    "modules-left": ["wlr/workspaces","custom/waybar-mpris"],
     "modules-right": ["temperature","network","battery","custom/ss","custom/cycle_wall","custom/expand","cpu","clock"],
     "modules-center": ["custom/dynamic_pill"],
     // Modules configuration
@@ -38,21 +38,21 @@
         "format":"{}",
         "exec":"~/.config/hypr/scripts/tools/expand arrow-icon"
     },
-    // "custom/waybar-mpris": {
-    //     "return-type": "json",
-    //     "exec": "echo '   '",
-    //     "on-click": "waybar-mpris --send toggle",
-    //     // This option will switch between players on right click.
-    //         "on-click-right": "waybar-mpris --send player-next",
-    //     // The options below will switch the selected player on scroll
-    //         // "on-scroll-up": "waybar-mpris --send player-next",
-    //         // "on-scroll-down": "waybar-mpris --send player-prev",
-    //     // The options below will go to next/previous track on scroll
-    //         // "on-scroll-up": "waybar-mpris --send next",
-    //         // "on-scroll-down": "waybar-mpris --send prev",
-    //     "escape": true
-    // },
-    //////////////////////////////////
+     "custom/waybar-mpris": {
+	 "format":"{}",
+         "return-type": "json",
+         "exec": "waybar-mpris --position --autofocus --order 'SYMBOL:ALBUM:TITLE'",
+         "on-click": "waybar-mpris --send toggle",
+         // This option will switch between players on right click.
+             "on-click-right": "waybar-mpris --send player-next",
+         // The options below will switch the selected player on scroll
+              "on-scroll-up": "waybar-mpris --send player-next",
+              "on-scroll-down": "waybar-mpris --send player-prev",
+         // The options below will go to next/previous track on scroll
+             // "on-scroll-up": "waybar-mpris --send next",
+             // "on-scroll-down": "waybar-mpris --send prev",
+         "escape": true
+     },
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
@@ -178,16 +178,17 @@
         },
         "on-click": "pavucontrol"
     },
-    "custom/media": {
-        "format": "{icon} {}",
-        "return-type": "json",
-        "max-length": 40,
-        "format-icons": {
-            "spotify": "",
-            "default": "🎜"
-        },
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
+    //"custom/media": {
+        //"format": "{icon} {}",
+        //"return-type": "json",
+        //"max-length": 40,
+        //"format-icons": {
+        //    "spotify": "",
+        //    "default": "🎜"
+        //},
+        //"escape": true,
+        //"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
         // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
-    }
+    //},
+
 }

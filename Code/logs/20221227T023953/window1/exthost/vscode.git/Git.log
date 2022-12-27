@@ -1,0 +1,18 @@
+2022-12-27 02:39:57.275 [info] Protokolliergrad: Info
+2022-12-27 02:39:57.275 [info] Gefundenes Git wird überprüft in: "git"
+2022-12-27 02:39:57.275 [info] Git "" von "git" verwenden
+2022-12-27 02:39:57.278 [info] > git rev-parse --show-toplevel [56ms]
+2022-12-27 02:39:57.300 [info] > git rev-parse --git-dir --git-common-dir [13ms]
+2022-12-27 02:39:57.308 [info] Open repository: /home/ju/Code
+2022-12-27 02:39:57.324 [info] > git config --get commit.template [2ms]
+2022-12-27 02:39:57.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2022-12-27 02:39:57.365 [info] > git status -z -uall [10ms]
+2022-12-27 02:39:57.365 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-27 02:39:57.401 [info] > git config --get commit.template [14ms]
+2022-12-27 02:39:57.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2022-12-27 02:39:57.430 [info] > git status -z -uall [9ms]
+2022-12-27 02:39:57.431 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2022-12-27 02:39:57.710 [info] > git show --textconv :ytdl.py [27ms]
+2022-12-27 02:39:57.711 [info] > git ls-files --stage -- /home/ju/Code/ytdl.py [12ms]
+2022-12-27 02:39:57.720 [info] > git cat-file -s 3b588ca1781d069d3c890dd5720bf7d72282252f [2ms]
+2022-12-27 02:39:57.938 [info] > git check-ignore -v -z --stdin [7ms]

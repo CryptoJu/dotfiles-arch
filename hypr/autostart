@@ -12,10 +12,10 @@ rm $HOME/test.log &
 
 # waybar
 $scripts/launch_waybar &
-$scripts/tools/dynamic &
+#$scripts/tools/dynamic &
 
 # wallpaper
-#$scripts/wall $config/wallpapers/cloud.png &
+$scripts/wall $config/wallpapers/cloud.png &
 
 # effects
 $scripts/rgb &
