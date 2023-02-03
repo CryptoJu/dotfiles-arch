@@ -1,0 +1,7 @@
+2023-02-03 22:17:11.989 [info] update#setState idle
+2023-02-03 22:17:12.863 [info] Starting extension host with pid 2435970 (fork() took 27 ms).
+2023-02-03 22:17:41.996 [info] update#setState checking for updates
+2023-02-03 22:17:42.000 [info] update#setState available for download
+2023-02-03 22:17:47.090 [info] update#setState idle
+2023-02-03 22:17:55.134 [info] Extension host with pid 2435970 exited with code: 0, signal: null.
+2023-02-03 22:17:55.149 [info] Waiting for extension host with pid 2435970 to exit.

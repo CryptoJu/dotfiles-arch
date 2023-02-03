@@ -1,0 +1,73 @@
+2023-01-16 20:33:46.866 [info] [perf] Render performance baseline is 118ms
+2023-01-16 20:49:47.665 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:49:48.900 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:49:50.851 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:49:52.325 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:49:55.704 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:49:57.215 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:49:59.421 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)
+2023-01-16 20:55:58.839 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)

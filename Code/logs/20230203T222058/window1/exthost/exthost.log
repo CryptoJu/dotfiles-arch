@@ -1,0 +1,280 @@
+2023-02-03 22:21:00.283 [info] Extension host with pid 2492578 started
+2023-02-03 22:21:00.283 [info] Skipping acquiring lock for /home/ju/.config/Code/User/workspaceStorage/18a029b96a749a49f452efe9bcd18f2d.
+2023-02-03 22:21:00.398 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-03 22:21:00.399 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2023-02-03 22:21:00.415 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-02-03 22:21:00.810 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-02-03 22:21:01.164 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-03 22:21:01.164 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-02-03 22:21:01.287 [error] Activating extension ms-python.python failed due to an error:
+2023-02-03 22:21:01.287 [error] TypeError: TelemetrySender.sendEventData must be a function
+	at E.validateSender (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:38355)
+	at Object.createTelemetryLogger (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:31905)
+	at new t.BaseTelemetryReporter (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:1111846)
+	at new h (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:1116985)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:677577
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:677653)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:157104
+	at y.activate (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:157197)
+	at async /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:3078901
+	at async e (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:3078515)
+	at async f.n (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6818)
+	at async f.m (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6781)
+	at async f.l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:6238)
+2023-02-03 22:21:01.968 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-02-03 22:21:01.990 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-03 22:21:02.048 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-03 22:21:02.048 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-03 22:21:02.282 [info] Eager extensions activated
+2023-02-03 22:21:02.283 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-03 22:21:02.306 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-03 22:21:02.306 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-03 22:21:02.342 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.345 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.345 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.486 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.487 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.487 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.523 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.523 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.539 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.539 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.541 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.541 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.541 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2023-02-03 22:21:02.542 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2023-02-03 22:21:02.542 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2023-02-03 22:21:02.546 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.546 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.547 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.547 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.577 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.578 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.595 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.595 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.595 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.595 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.596 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2023-02-03 22:21:02.596 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2023-02-03 22:21:02.597 [warning] Using default string since no string found in i18n bundle that has the key: Commit Changes on "{0}"
+2023-02-03 22:21:02.597 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.597 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.597 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.597 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.606 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.606 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.620 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.620 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.621 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.635 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.635 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.643 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.643 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.644 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.644 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.644 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.644 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.987 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:02.987 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.005 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.005 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.018 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.018 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.019 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.019 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.037 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.037 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.044 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.044 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.053 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.053 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.054 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:03.054 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.661 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.661 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.666 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.666 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.672 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.672 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.673 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:22.673 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:26.906 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+2023-02-03 22:21:26.907 [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:typescript'
+2023-02-03 22:21:27.257 [info] ExtensionService#_doActivateExtension svelte.svelte-vscode, startup: false, activationEvent: 'onLanguage:typescript'
+2023-02-03 22:21:27.418 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.418 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.428 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.428 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.656 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.656 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.713 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:27.713 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:29.631 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:scss'
+2023-02-03 22:21:29.633 [info] ExtensionService#_doActivateExtension mrmlnc.vscode-scss, startup: false, activationEvent: 'onLanguage:scss'
+2023-02-03 22:21:29.879 [info] ExtensionService#_doActivateExtension sibiraj-s.vscode-scss-formatter, startup: false, activationEvent: 'onLanguage:scss'
+2023-02-03 22:21:29.983 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:29.983 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:29.995 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:29.995 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:30.056 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:30.056 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:30.061 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:21:30.061 [warning] Using default string since no string found in i18n bundle that has the key: Checkout Branch/Tag...
+2023-02-03 22:22:27.728 [info] Extension host terminating: renderer closed the MessagePort
+2023-02-03 22:22:27.765 [error] Canceled: Canceled
+	at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2070210)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074183
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074169)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-03 22:22:27.766 [error] Canceled: Canceled
+	at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2070210)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074183
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074169)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-03 22:22:27.781 [info] Extension host with pid 2492578 exiting with code 0
+2023-02-03 22:22:29.264 [info] Extension host with pid 2510446 started
+2023-02-03 22:22:29.264 [info] Skipping acquiring lock for /home/ju/.config/Code/User/workspaceStorage/18a029b96a749a49f452efe9bcd18f2d.
+2023-02-03 22:22:29.366 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-02-03 22:22:29.367 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-02-03 22:22:29.367 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-02-03 22:22:29.367 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-02-03 22:22:29.625 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-02-03 22:22:29.625 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-02-03 22:22:29.673 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-02-03 22:22:29.740 [info] Eager extensions activated
+2023-02-03 22:22:29.811 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-02-03 22:22:29.811 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-02-03 22:24:12.615 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-03 22:24:12.616 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-03 22:24:12.616 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-02-03 22:24:15.749 [info] Extension host terminating: renderer closed the MessagePort
+2023-02-03 22:24:15.758 [error] Canceled: Canceled
+	at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2070210)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074183
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074169)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-03 22:24:15.759 [error] Canceled: Canceled
+	at new u (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:88070)
+	at l.O (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at V.<computed>.M.charCodeAt.V.<computed> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:107430)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at w.registerCommand.description (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106099)
+	at s.h (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:108016)
+	at s.g (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106906)
+	at s.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:106806)
+	at Object.executeCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:30778)
+	at D (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2055373)
+	at f.invoke (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at g.deliver (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2029)
+	at d.fire (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:1667)
+	at Object.h [as dispose] (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2070210)
+	at /opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074183
+	at Array.forEach (<anonymous>)
+	at g.dispose (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2074169)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12431)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at C.<anonymous> (/opt/visual-studio-code/resources/app/extensions/git/dist/main.js:2:2057503)
+	at C.dispose (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:12566)
+	at T (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at f.X (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:11242)
+	at /opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9037
+	at Array.map (<anonymous>)
+	at f.Q (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9024)
+	at f.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:108:9298)
+	at h.terminate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at p (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:17851)
+	at MessagePortMain.<anonymous> (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:122:13990)
+	at MessagePortMain.emit (node:events:526:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:5:364) setContext undefined
+2023-02-03 22:24:15.768 [info] Extension host with pid 2510446 exiting with code 0

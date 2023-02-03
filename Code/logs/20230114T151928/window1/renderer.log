@@ -1,0 +1,4 @@
+2023-01-14 15:19:32.110 [info] [perf] Render performance baseline is 32ms
+2023-01-14 15:20:07.366 [info] [perf] Render performance baseline is 34ms
+2023-01-14 15:21:11.172 [warning] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/ju/.local/lib/python3.10/site-packages)
+2023-01-14 15:24:35.381 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

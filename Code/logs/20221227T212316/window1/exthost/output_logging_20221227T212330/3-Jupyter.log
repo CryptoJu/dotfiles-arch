@@ -1,0 +1,26 @@
+Visual Studio Code (1.74.2, undefined, desktop)
+Jupyter Extension Version: 2022.11.1003412109.
+Python Extension Version: 2022.20.1.
+Workspace folder /home/ju/Scripts/keymap
+info 21:23:35.408: ZMQ install verified.
+Der Benutzer gehört der Experimentgruppe „jupyterTest“ an.
+Der Benutzer gehört der Experimentgruppe „jupyterEnhancedDataViewer“ an.
+info 21:23:35.845: LSP Notebooks experiment is enabled
+info 21:23:36.090: Got empty env vars with python /usr/bin/python in 15ms
+info 21:23:36.100: Process Execution: > /usr/bin/python -m pip list
+> /usr/bin/python -m pip list
+info 21:23:36.154: Process Execution: > /usr/bin/python -c "import pip"
+> /usr/bin/python -c "import pip"
+error 21:23:36.188: interpreterPackages getPackageInformation, Class name = r, completed in 113ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/usr/bin/python","sysPrefix":"/usr","displayPath":{"$mid":1,"path":"/usr/bin/python","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/usr/bin/python","external":"file:///usr/bin/python","path":"/usr/bin/python","scheme":"file"},"displayName":"","envType":"Unknown","version":{"major":3,"minor":10,"patch":9,"raw":"3.10.9 (main, Dec 19 2022, 17:35:49) [GCC 12.2.0]"}}} [i [Error]: Module 'pip' not installed.
+	at l.execModule (/home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:82791)
+	at async r.getPackageInformation (/home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:42188)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 22:13:02.591: Shutting down notebooks for 0f07d416-eec0-4cc2-9c4e-25689fe7d180
+info 22:13:02.592: Disposing HostJupyterExecution 01aae411-5f0d-4349-8bf6-287ecc7934e5
+info 22:13:02.592: Disposing super HostJupyterExecution 01aae411-5f0d-4349-8bf6-287ecc7934e5
+info 22:13:02.592: Disposing HostJupyterExecution 01aae411-5f0d-4349-8bf6-287ecc7934e5
+info 22:13:02.592: Finished disposing HostJupyterExecution  01aae411-5f0d-4349-8bf6-287ecc7934e5
+info 22:13:02.596: Cleaning up server cache 01aae411-5f0d-4349-8bf6-287ecc7934e5
+info 22:13:02.597: Finished disposing HostJupyterExecution  01aae411-5f0d-4349-8bf6-287ecc7934e5

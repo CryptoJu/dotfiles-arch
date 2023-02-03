@@ -1,0 +1,16 @@
+2023-01-19 20:24:10.869 [info] Starting worker process with pid 2147190 (type: fileWatcher, window: 1).
+2023-01-19 20:24:13.434 [info] Getting Manifest... ms-python.vscode-pylance
+2023-01-19 20:24:13.449 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-01-19 20:24:13.690 [info] Installing extension: ms-python.vscode-pylance
+2023-01-19 20:24:13.706 [info] Installing extension: ms-toolsai.jupyter-renderers
+2023-01-19 20:24:14.467 [info] Getting Manifest... ms-python.python
+2023-01-19 20:24:15.233 [info] Extracted extension to /home/ju/.vscode/extensions/.937dc6e7-574a-4714-a64f-37de64b72deb: ms-toolsai.jupyter-renderers
+2023-01-19 20:24:15.239 [info] Renamed to /home/ju/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.14
+2023-01-19 20:24:15.241 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2023-01-19 20:24:15.250 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-01-19 20:24:15.285 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.12
+2023-01-19 20:24:19.312 [info] Extracted extension to /home/ju/.vscode/extensions/.81ca60d4-cb0f-4dd7-a828-5e8e23878f3a: ms-python.vscode-pylance
+2023-01-19 20:24:19.324 [info] Renamed to /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.30
+2023-01-19 20:24:19.326 [info] Extracting completed. ms-python.vscode-pylance
+2023-01-19 20:24:19.334 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-01-19 20:24:19.369 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.1.20

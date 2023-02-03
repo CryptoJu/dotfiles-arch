@@ -1,0 +1,73 @@
+2023-01-16 20:33:46.757 [info] Protokolliergrad: Info
+2023-01-16 20:33:46.757 [info] Gefundenes Git wird überprüft in: "git"
+2023-01-16 20:33:46.757 [info] Git "2.39.0" von "git" verwenden
+2023-01-16 20:33:46.757 [info] > git rev-parse --show-toplevel [34ms]
+2023-01-16 20:33:46.757 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-16 20:33:46.757 [info] > git rev-parse --show-toplevel [32ms]
+2023-01-16 20:33:46.757 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2023-01-16 20:33:46.757 [info] Open repository: /home/ju/Scripts/angtest/material-prod
+2023-01-16 20:33:46.757 [info] > git rev-parse --show-toplevel [12ms]
+2023-01-16 20:33:46.757 [info] > git config --get commit.template [20ms]
+2023-01-16 20:33:46.790 [warning] No remotes found in the git config file.
+2023-01-16 20:33:46.790 [info] > git rev-parse --git-dir --git-common-dir [37ms]
+2023-01-16 20:33:46.793 [info] Open repository: /home/ju/Scripts/angtest/test
+2023-01-16 20:33:46.810 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [31ms]
+2023-01-16 20:33:46.815 [info] > git remote --verbose [25ms]
+2023-01-16 20:33:46.860 [info] > git config --get commit.template [51ms]
+2023-01-16 20:33:46.930 [warning] No remotes found in the git config file.
+2023-01-16 20:33:46.931 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [85ms]
+2023-01-16 20:33:46.933 [info] > git status -z -uall [94ms]
+2023-01-16 20:33:46.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [16ms]
+2023-01-16 20:33:46.950 [info] > git remote --verbose [20ms]
+2023-01-16 20:33:47.009 [info] > git status -z -uall [51ms]
+2023-01-16 20:33:47.009 [info] > git config --get commit.template [60ms]
+2023-01-16 20:33:47.026 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [43ms]
+2023-01-16 20:33:47.062 [warning] No remotes found in the git config file.
+2023-01-16 20:33:47.128 [info] > git remote --verbose [65ms]
+2023-01-16 20:33:47.128 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [79ms]
+2023-01-16 20:33:47.161 [info] > git status -z -uall [19ms]
+2023-01-16 20:33:47.161 [info] > git config --get commit.template [84ms]
+2023-01-16 20:33:47.182 [warning] No remotes found in the git config file.
+2023-01-16 20:33:47.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [17ms]
+2023-01-16 20:33:47.188 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [30ms]
+2023-01-16 20:33:47.194 [info] > git remote --verbose [12ms]
+2023-01-16 20:33:47.237 [info] > git status -z -uall [31ms]
+2023-01-16 20:33:47.256 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2023-01-16 20:33:47.478 [info] > git check-ignore -v -z --stdin [13ms]
+2023-01-16 20:33:47.631 [info] > git show --textconv :backend/main.py [11ms]
+2023-01-16 20:33:47.633 [info] > git ls-files --stage -- /home/ju/Scripts/angtest/material-prod/backend/main.py [2ms]
+2023-01-16 20:33:49.534 [info] > git check-ignore -v -z --stdin [13ms]
+2023-01-16 20:33:49.535 [info] > git check-ignore -v -z --stdin [1ms]
+2023-01-16 20:37:25.957 [info] > git show --textconv :backend/db.py [6ms]
+2023-01-16 20:37:25.958 [info] > git ls-files --stage -- /home/ju/Scripts/angtest/material-prod/backend/db.py [2ms]
+2023-01-16 20:41:09.844 [info] > git rev-parse --show-toplevel [5ms]
+2023-01-16 20:41:09.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-16 20:41:12.754 [info] > git rev-parse --show-toplevel [1ms]
+2023-01-16 20:41:12.754 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-16 20:41:13.445 [info] > git rev-parse --show-toplevel [2ms]
+2023-01-16 20:41:13.445 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-16 20:41:13.782 [info] > git rev-parse --show-toplevel [6ms]
+2023-01-16 20:41:13.782 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-16 20:41:14.513 [info] > git rev-parse --show-toplevel [5ms]
+2023-01-16 20:41:14.513 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-01-16 20:52:49.279 [info] > git show --textconv :backend/db.sqlite3 [12ms]
+2023-01-16 20:52:49.279 [info] > git ls-files --stage -- /home/ju/Scripts/angtest/material-prod/backend/db.sqlite3 [1ms]
+2023-01-16 20:53:59.103 [info] > git config --get commit.template [2ms]
+2023-01-16 20:53:59.120 [warning] No remotes found in the git config file.
+2023-01-16 20:53:59.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2023-01-16 20:53:59.121 [info] > git remote --verbose [1ms]
+2023-01-16 20:53:59.136 [info] > git status -z -uall [8ms]
+2023-01-16 20:53:59.137 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-16 20:57:44.685 [info] > git config --get commit.template [6ms]
+2023-01-16 20:57:44.694 [warning] No remotes found in the git config file.
+2023-01-16 20:57:44.702 [info] > git remote --verbose [8ms]
+2023-01-16 20:57:44.702 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-01-16 20:57:44.716 [info] > git status -z -uall [7ms]
+2023-01-16 20:57:44.717 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2023-01-16 20:57:46.514 [info] > git check-ignore -v -z --stdin [57ms]
+2023-01-16 20:57:46.637 [info] > git show --textconv :src/app/app.module.ts [15ms]
+2023-01-16 20:57:46.666 [info] > git ls-files --stage -- /home/ju/Scripts/angtest/material-prod/src/app/app.module.ts [31ms]
+2023-01-16 20:57:46.686 [info] > git cat-file -s b1c6c96a9de8f091f39b3b8feb7e29cfcfb1ed81 [2ms]
+2023-01-16 20:57:49.627 [info] > git show --textconv :src/app/app.component.ts [10ms]
+2023-01-16 20:57:49.628 [info] > git ls-files --stage -- /home/ju/Scripts/angtest/material-prod/src/app/app.component.ts [2ms]
+2023-01-16 20:57:49.637 [info] > git cat-file -s d16ebb0d46841de2bbb1bde9d1e93fee4e57bf24 [1ms]

@@ -1,0 +1,23 @@
+2023-02-03 22:20:59.112 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-03 22:21:00.041 [error] Extension 'ms-python.python' wants API proposal 'telemetryLogger' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-03 22:21:02.834 [info] [perf] Render performance baseline is 32ms
+2023-02-03 22:21:25.709 [error] Die Datei "/home/ju/Scripts/angtest/material-prod/backend/main.py" kann nicht gelesen werden (Error: Datei nicht geändert seit).: Error: Die Datei "/home/ju/Scripts/angtest/material-prod/backend/main.py" kann nicht gelesen werden (Error: Datei nicht geändert seit).
+    at l.w (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:17128)
+    at l.v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:616:16960)
+    at async m.H (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:34453)
+    at async m.readStream (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:34148)
+    at async Ps.Ab (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2315:54208)
+    at async vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2324:30193
+2023-02-03 22:22:01.229 [error] Server returned 404: Error: Server returned 404
+    at v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:642:62166)
+    at S.readExtensionResource (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:745:5647)
+    at async u.a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2019:21207)
+    at async ne.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:2788)
+2023-02-03 22:22:01.558 [error] RequestService#request (browser) - error https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery {"name":"Canceled"}
+2023-02-03 22:22:03.229 [error] Server returned 404: Error: Server returned 404
+    at v (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:642:62166)
+    at S.readExtensionResource (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:745:5647)
+    at async u.a (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2019:21207)
+    at async ne.U (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:2297:2788)
+2023-02-03 22:22:28.104 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'commentsResolvedState' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-02-03 22:22:31.153 [info] [perf] Render performance baseline is 31ms

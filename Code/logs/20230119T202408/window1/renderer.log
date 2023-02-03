@@ -1,0 +1,10 @@
+2023-01-19 20:24:12.688 [info] [perf] Render performance baseline is 25ms
+2023-01-19 20:52:52.676 [error] name must not be falsy: Error: name must not be falsy
+	at l.validate (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26329)
+	at new l (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:92:26624)
+	at $ (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2114999)
+	at c (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152184)
+	at t.map (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2152270)
+	at Object.asDocumentSymbols (/home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2122817)
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.2/out/client/extension.js:2:2061362
+	at async s.provideDocumentSymbols (/opt/visual-studio-code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:96:32412)

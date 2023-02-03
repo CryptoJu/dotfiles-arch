@@ -823,7 +823,8 @@
     <group
        id="maskobject"
        topmost="1"
-       remove="1" />
+       remove="1"
+       grouping="0" />
     <group
        id="blurquality"
        value="0" />
@@ -915,7 +916,8 @@
        unitType="2" />
     <group
        id="boot"
-       theme="colorful">
+       theme="colorful"
+       enabled="0">
       <group
          id="shown"
          ver1.2.2="1" />

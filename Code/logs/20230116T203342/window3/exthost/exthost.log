@@ -1,0 +1,9 @@
+2023-01-16 20:41:01.941 [info] Extension host with pid 1934803 started
+2023-01-16 20:41:02.059 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-16 20:41:02.059 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-16 20:41:02.060 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-01-16 20:41:02.177 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-16 20:41:02.177 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-16 20:41:02.180 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-16 20:41:02.420 [info] Extension host terminating: renderer closed the socket
+2023-01-16 20:41:02.422 [info] Extension host with pid 1934803 exiting with code 0

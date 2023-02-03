@@ -1,0 +1,12 @@
+2022-12-27 21:23:18.552 [info] Protokolliergrad: Info
+2022-12-27 21:23:18.552 [info] Gefundenes Git wird überprüft in: "git"
+2022-12-27 21:23:18.557 [info] Git "2.39.0" von "git" verwenden
+2022-12-27 21:23:30.820 [info] Protokolliergrad: Info
+2022-12-27 21:23:30.820 [info] Gefundenes Git wird überprüft in: "git"
+2022-12-27 21:23:30.820 [info] Git "2.39.0" von "git" verwenden
+2022-12-27 21:23:30.820 [info] > git rev-parse --show-toplevel [3ms]
+2022-12-27 21:23:30.820 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-12-27 21:23:35.072 [info] > git rev-parse --show-toplevel [1ms]
+2022-12-27 21:23:35.072 [info] fatal: not a git repository (or any of the parent directories): .git
+2022-12-27 21:35:40.569 [info] > git rev-parse --show-toplevel [6ms]
+2022-12-27 21:35:40.569 [info] fatal: not a git repository (or any of the parent directories): .git

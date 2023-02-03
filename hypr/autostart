@@ -7,9 +7,6 @@ scripts=$config/scripts
 # notification daemon
 dunst &
 
-# remove sus file
-rm $HOME/test.log &
-
 # waybar
 $scripts/launch_waybar &
 #$scripts/tools/dynamic &

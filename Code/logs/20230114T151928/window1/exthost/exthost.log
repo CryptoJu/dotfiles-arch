@@ -1,0 +1,34 @@
+2023-01-14 15:19:30.296 [info] Extension host with pid 1117962 started
+2023-01-14 15:19:30.296 [info] Skipping acquiring lock for /home/ju/.config/Code/User/workspaceStorage/ae20dfdc1b9400490b4985a9b5a3c4d1.
+2023-01-14 15:19:30.403 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-14 15:19:30.404 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-14 15:19:30.404 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-01-14 15:19:30.608 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-14 15:19:30.608 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-14 15:19:30.630 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-14 15:19:31.314 [info] Eager extensions activated
+2023-01-14 15:19:31.325 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 15:19:31.326 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 15:19:31.326 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 15:20:03.621 [info] Extension host terminating: received terminate message from renderer
+2023-01-14 15:20:03.629 [info] Extension host with pid 1117962 exiting with code 0
+2023-01-14 15:20:05.178 [info] Extension host with pid 1124508 started
+2023-01-14 15:20:05.178 [info] Skipping acquiring lock for /home/ju/.config/Code/User/workspaceStorage/18a029b96a749a49f452efe9bcd18f2d.
+2023-01-14 15:20:05.330 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2023-01-14 15:20:05.331 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-01-14 15:20:05.331 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-01-14 15:20:05.331 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-14 15:20:05.331 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-14 15:20:05.331 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-01-14 15:20:06.821 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-01-14 15:20:07.092 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-01-14 15:20:07.092 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-14 15:20:07.092 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-01-14 15:20:07.093 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2023-01-14 15:20:07.418 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2023-01-14 15:20:07.602 [info] Eager extensions activated
+2023-01-14 15:20:07.699 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 15:20:07.700 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 15:20:07.700 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-14 16:43:30.478 [info] Extension host terminating: received terminate message from renderer
+2023-01-14 16:43:30.517 [info] Extension host with pid 1124508 exiting with code 0

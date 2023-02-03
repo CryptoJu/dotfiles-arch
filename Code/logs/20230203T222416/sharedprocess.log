@@ -1,0 +1,21 @@
+2023-02-03 22:24:17.880 [info] Starting worker process with pid 2532207 (type: fileWatcher, window: 1).
+2023-02-03 22:24:18.176 [info] Deleted from disk ms-toolsai.jupyter-keymap /home/ju/.vscode/extensions/ms-toolsai.jupyter-keymap-1.0.0
+2023-02-03 22:24:18.275 [info] Deleted from disk ms-toolsai.vscode-jupyter-slideshow /home/ju/.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5
+2023-02-03 22:24:18.317 [info] Deleted from disk ms-ceintl.vscode-language-pack-de /home/ju/.vscode/extensions/ms-ceintl.vscode-language-pack-de-1.74.12140926
+2023-02-03 22:24:18.318 [info] Deleted from disk ms-toolsai.jupyter-renderers /home/ju/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.14
+2023-02-03 22:24:18.398 [info] Deleted from disk ms-toolsai.vscode-jupyter-cell-tags /home/ju/.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.6
+2023-02-03 22:24:18.419 [info] Deleted from disk lizhizhuanshu.autolua-debugger /home/ju/.vscode/extensions/lizhizhuanshu.autolua-debugger-0.0.8
+2023-02-03 22:24:18.420 [info] Deleted from disk ms-toolsai.jupyter /home/ju/.vscode/extensions/ms-toolsai.jupyter-2023.1.2000312134
+2023-02-03 22:24:18.420 [info] Deleted from disk ms-toolsai.jupyter /home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109
+2023-02-03 22:24:18.485 [info] Deleted from disk ms-python.python /home/ju/.vscode/extensions/ms-python.python-2022.20.2
+2023-02-03 22:25:48.305 [info] Getting Manifest... unthrottled.doki-theme
+2023-02-03 22:25:48.320 [info] Installing extension: unthrottled.doki-theme
+2023-02-03 22:25:50.018 [warning] Extension signature verification: unthrottled.doki-theme. Verification status: UnknownError.
+2023-02-03 22:25:50.120 [info] Extracted extension to /home/ju/.vscode/extensions/.b6ebf7d2-b607-449e-9d45-f64a7523f50e: unthrottled.doki-theme
+2023-02-03 22:25:50.127 [info] Renamed to /home/ju/.vscode/extensions/unthrottled.doki-theme-88.1.12
+2023-02-03 22:25:50.129 [info] Extracting completed. unthrottled.doki-theme
+2023-02-03 22:25:50.140 [info] Extension installed successfully: unthrottled.doki-theme
+2023-02-03 22:30:58.264 [info] Worker process with pid 2532207 terminated normally (type: fileWatcher, window: 1).
+2023-02-03 22:30:59.003 [info] Starting worker process with pid 2610931 (type: fileWatcher, window: 1).
+2023-02-03 22:32:22.645 [info] Worker process with pid 2610931 terminated normally (type: fileWatcher, window: 1).
+2023-02-03 22:32:23.727 [info] Starting worker process with pid 2627603 (type: fileWatcher, window: 1).

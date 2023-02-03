@@ -1,0 +1,23 @@
+[Info  - 15:20:08] (1125233) Pylance language server 2023.1.20 (pyright b78a9e4b) starting
+[Info  - 15:20:08] (1125233) Server root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.20/dist
+[Info  - 15:20:08] (1125233) Starting service instance "angtest"
+[Info  - 15:20:08] (1125233) No configuration file found.
+[Info  - 15:20:08] (1125233) No pyproject.toml file found.
+[Info  - 15:20:08] (1125233) Setting pythonPath for service "angtest": "/bin/python"
+[Warn  - 15:20:08] (1125233) stubPath /home/ju/Scripts/angtest/typings is not a valid directory.
+[Info  - 15:20:08] (1125233) Assuming Python version 3.10
+[Info  - 15:20:08] (1125233) Assuming Python platform Linux
+[Info  - 15:20:08] (1125233) Searching for source files
+[Info  - 15:20:08] (1125233) Found 2 source files
+[Info  - 15:20:09] (1125233) Background analysis(1) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.20/dist
+[Info  - 15:20:09] (1125233) Background analysis(1) started
+[Info  - 15:20:09] (1125233) Indexer background runner(2) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.20/dist (index)
+[Info  - 15:20:09] (1125233) Indexing(2) started
+[Info  - 15:20:10] (1125233) scanned(2) 30 files over 1 exec env
+[Info  - 15:20:11] (1125233) indexed(2) 21 files over 1 exec env
+[Info  - 15:20:11] (1125233) Indexing finished(2).
+[Info  - 15:21:57] (1125233) Indexer background runner(3) root directory: /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.20/dist (refresh)
+[Info  - 15:21:57] (1125233) Indexing(3) started
+[Info  - 15:21:57] (1125233) scanned(3) 11 files over 1 exec env
+[Info  - 15:21:57] (1125233) indexed(3) 2 files over 1 exec env
+[Info  - 15:21:57] (1125233) Indexing finished(3).

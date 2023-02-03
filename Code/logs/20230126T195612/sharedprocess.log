@@ -1,0 +1,18 @@
+2023-01-26 19:56:15.284 [info] Deleted from disk ms-toolsai.jupyter-renderers /home/ju/.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.12
+2023-01-26 19:56:15.607 [info] Starting worker process with pid 1723870 (type: fileWatcher, window: 1).
+2023-01-26 19:56:16.286 [info] Deleted from disk ms-python.vscode-pylance /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.20
+2023-01-26 19:56:18.612 [info] Getting Manifest... ms-python.vscode-pylance
+2023-01-26 19:56:18.616 [info] Getting Manifest... svelte.svelte-vscode
+2023-01-26 19:56:18.835 [info] Installing extension: ms-python.vscode-pylance
+2023-01-26 19:56:19.215 [info] Installing extension: svelte.svelte-vscode
+2023-01-26 19:56:19.517 [info] Getting Manifest... ms-python.python
+2023-01-26 19:56:25.907 [info] Extracted extension to /home/ju/.vscode/extensions/.d10510a9-e01c-4d5e-b76a-4892f4327daa: svelte.svelte-vscode
+2023-01-26 19:56:25.917 [info] Renamed to /home/ju/.vscode/extensions/svelte.svelte-vscode-107.0.2
+2023-01-26 19:56:25.919 [info] Extracting completed. svelte.svelte-vscode
+2023-01-26 19:56:25.934 [info] Extension installed successfully: svelte.svelte-vscode
+2023-01-26 19:56:25.968 [info] Marked extension as uninstalled svelte.svelte-vscode-107.0.1
+2023-01-26 19:56:27.024 [info] Extracted extension to /home/ju/.vscode/extensions/.ad3f7183-1363-4db4-a3de-49687f988d9c: ms-python.vscode-pylance
+2023-01-26 19:56:27.039 [info] Renamed to /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.40
+2023-01-26 19:56:27.042 [info] Extracting completed. ms-python.vscode-pylance
+2023-01-26 19:56:27.049 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-01-26 19:56:27.109 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.1.30

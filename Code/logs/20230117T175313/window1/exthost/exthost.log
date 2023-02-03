@@ -1,0 +1,10 @@
+2023-01-17 17:53:15.604 [info] Extension host with pid 13936 started
+2023-01-17 17:53:15.604 [info] Skipping acquiring lock for /home/ju/.config/Code/User/workspaceStorage/18a029b96a749a49f452efe9bcd18f2d.
+2023-01-17 17:53:15.763 [info] ExtensionService#_doActivateExtension batisteo.vscode-django, startup: false, activationEvent: 'onLanguage:python'
+2023-01-17 17:53:15.764 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2023-01-17 17:53:15.764 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-01-17 17:53:15.764 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2023-01-17 17:53:15.764 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-01-17 17:53:15.764 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: true, activationEvent: '*'
+2023-01-17 17:53:16.325 [info] Extension host terminating: renderer closed the socket
+2023-01-17 17:53:16.326 [info] Extension host with pid 13936 exiting with code 0

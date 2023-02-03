@@ -1,0 +1,11 @@
+2023-02-03 22:17:14.332 [info] Starting worker process with pid 2436253 (type: fileWatcher, window: 1).
+2023-02-03 22:17:14.956 [info] Deleted from disk svelte.svelte-vscode /home/ju/.vscode/extensions/svelte.svelte-vscode-107.0.1
+2023-02-03 22:17:14.957 [info] Deleted from disk ms-python.vscode-pylance /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.1.30
+2023-02-03 22:17:17.458 [info] Getting Manifest... ms-python.vscode-pylance
+2023-02-03 22:17:17.675 [info] Installing extension: ms-python.vscode-pylance
+2023-02-03 22:17:18.690 [info] Getting Manifest... ms-python.python
+2023-02-03 22:17:23.501 [info] Extracted extension to /home/ju/.vscode/extensions/.a465b07f-9565-4405-a06b-f2fbaaf95790: ms-python.vscode-pylance
+2023-02-03 22:17:23.508 [info] Renamed to /home/ju/.vscode/extensions/ms-python.vscode-pylance-2023.2.10
+2023-02-03 22:17:23.510 [info] Extracting completed. ms-python.vscode-pylance
+2023-02-03 22:17:23.519 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-02-03 22:17:23.549 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.1.40

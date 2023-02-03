@@ -1,0 +1,215 @@
+2022-12-27 21:23:17.767 [info] Extension host with pid 3693364 started
+2022-12-27 21:23:17.857 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2022-12-27 21:23:17.857 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-27 21:23:18.421 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2022-12-27 21:23:18.448 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-27 21:23:18.448 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-27 21:23:18.559 [info] Eager extensions activated
+2022-12-27 21:23:18.575 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-27 21:23:18.576 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-27 21:23:18.576 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-27 21:23:29.184 [info] Extension host terminating: received terminate message from renderer
+2022-12-27 21:23:29.190 [info] Extension host with pid 3693364 exiting with code 0
+2022-12-27 21:23:30.473 [info] Extension host with pid 3695914 started
+2022-12-27 21:23:30.473 [info] Skipping acquiring lock for /home/ju/.config/Code/User/workspaceStorage/16c44c5d3ff2a4d4286bb0ba09f6baca.
+2022-12-27 21:23:30.598 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2022-12-27 21:23:30.598 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2022-12-27 21:23:30.746 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2022-12-27 21:23:30.746 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2022-12-27 21:23:30.811 [info] Eager extensions activated
+2022-12-27 21:23:30.812 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2022-12-27 21:23:30.819 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2022-12-27 21:23:30.819 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2022-12-27 21:23:30.819 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2022-12-27 21:23:35.143 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.isort
+2022-12-27 21:23:35.143 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2022-12-27 21:23:35.876 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2022-12-27 21:23:35.938 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2022-12-27 21:23:35.939 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2022-12-27 21:23:37.191 [error] Error: Module 'pip' not installed.
+	at l.execModule (/home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:7:82791)
+	at async r.getPackageInformation (/home/ju/.vscode/extensions/ms-toolsai.jupyter-2022.11.1003412109/out/extension.node.js:17:42188)
+2022-12-27 21:23:41.256 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:41.256 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:42.042 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:42.042 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:42.128 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:42.128 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:42.495 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:42.495 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:44.598 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:44.598 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:45.206 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:45.206 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:45.790 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:45.790 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:46.209 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:46.210 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:47.069 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:47.069 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:47.472 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:47.472 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:48.245 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:48.245 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:48.549 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:48.549 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:49.109 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:49.109 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:49.435 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:49.435 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:50.252 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:50.252 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:50.458 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:50.458 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:50.986 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:50.986 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:51.437 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:51.437 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:53.587 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:53.587 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:56.965 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:56.965 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:57.285 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:57.286 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:57.598 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:57.598 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:58.948 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:58.948 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:23:59.190 [error] [ms-python.python] provider FAILED
+2022-12-27 21:23:59.190 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:24:17.741 [error] [ms-python.python] provider FAILED
+2022-12-27 21:24:17.741 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:24:18.789 [error] [ms-python.python] provider FAILED
+2022-12-27 21:24:18.789 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:24:19.036 [error] [ms-python.python] provider FAILED
+2022-12-27 21:24:19.036 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:24:22.942 [error] [ms-python.python] provider FAILED
+2022-12-27 21:24:22.942 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:24:23.628 [error] [ms-python.python] provider FAILED
+2022-12-27 21:24:23.628 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 21:24:24.365 [error] [ms-python.python] provider FAILED
+2022-12-27 21:24:24.365 [error] Error: Request textDocument/foldingRange failed with message: index is out of range
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1948854
+	at /home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949148
+	at Immediate.<anonymous> (/home/ju/.vscode/extensions/ms-python.python-2022.20.1/out/client/extension.js:2:1949510)
+	at process.processImmediate (node:internal/timers:466:21)
+2022-12-27 22:13:02.569 [info] Extension host terminating: received terminate message from renderer
+2022-12-27 22:13:02.604 [error] Error: read ECONNRESET
+	at Pipe.onStreamRead (node:internal/stream_base_commons:217:20)
+2022-12-27 22:13:02.613 [info] Extension host with pid 3695914 exiting with code 0

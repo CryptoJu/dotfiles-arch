@@ -1,0 +1,8 @@
+2022-12-27 21:23:16.110 [info] update#setState idle
+2022-12-27 21:23:17.091 [info] Starting extension host with pid 3693364 (fork() took 28 ms).
+2022-12-27 21:23:29.205 [info] Extension host with pid 3693364 exited with code: 0, signal: null.
+2022-12-27 21:23:29.850 [info] Starting extension host with pid 3695914 (fork() took 16 ms).
+2022-12-27 21:23:46.113 [info] update#setState checking for updates
+2022-12-27 21:23:46.291 [info] update#setState idle
+2022-12-27 22:13:02.601 [info] Waiting for extension host with pid 3695914 to exit.
+2022-12-27 22:13:02.630 [info] Extension host with pid 3695914 exited with code: 0, signal: null.
