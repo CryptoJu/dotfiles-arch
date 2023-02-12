@@ -1,0 +1,144 @@
+{
+//
+// Positioning
+//
+"layer": "top", 		// is waybar above or below windows
+"position": "top", 	// Waybar position (top|bottom|left|right)
+"height": 55, 			// Waybar height (to be removed for auto height)
+// "width": 1280, // Waybar width
+
+"margin-bottom":-11,
+
+//
+// Module locations
+//
+"modules-left": [
+	"wlr/workspaces", 
+	"sway/window"
+],
+"modules-center": [
+],
+"modules-right": [
+	"custom/ss",
+	"custom/cycle_wall", 
+	"custom/expand",
+	"pulseaudio", 
+	"network", 
+	"cpu", 
+	"temperature", 
+	"backlight", 
+	"battery", 
+	"clock", 
+	"tray"
+],
+
+"custom/ss":{
+	"format":"{}",
+	"exec":"~/.config/hypr/scripts/tools/expand ss-icon",
+	"on-click": "~/.config/hypr/scripts/screenshot"
+},
+"custom/cycle_wall":{
+	"format":"{}",
+	"exec": "~/.config/hypr/scripts/tools/expand wall",
+	// "interval": 1,
+	"on-click": "~/.config/hypr/scripts/tools/expand cycle"
+},
+"custom/expand":{
+	"on-click":"~/.config/hypr/scripts/expand_toolbar",
+	"format":"{}",
+	"exec":"~/.config/hypr/scripts/tools/expand arrow-icon"
+},
+
+//
+// Module configuration
+//
+"wlr/workspaces": {
+    "format": "{icon}",
+    "format-active": " {icon} ", 
+    "on-click": "activate",
+    "format-icons": {
+        "10":"10"
+    }
+},
+
+"tray": {
+	// "icon-size": 21,
+	"spacing": 10
+},
+
+"clock": {
+	"tooltip-format": "{:%d.%m.%Y | %H:%M}",
+	"format-alt": "{:%d.%m.%Y}"
+},
+
+"cpu": {
+	// 
+	"format": "{usage}% {icon}",
+	"format-icons": [""],
+	"icon-size": 90,
+	"tooltip": false
+},
+
+"memory": {
+	"format": "{}% "
+},
+
+"temperature": {
+	// "thermal-zone": 2,
+	"hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+	"critical-threshold": 80,
+	// "format-critical": "{temperatureC}°C {icon}",
+	"format": "{temperatureC}°C {icon}",
+	"format-icons": ["", "", ""]
+},
+
+"backlight": {
+	// "device": "acpi_video1",
+	"format": "{percent}% {icon}",
+	"format-icons": ["", ""]
+},
+
+"battery": {
+	"states": {
+		// "good": 95,
+		"warning": 30,
+		"critical": 10
+	},
+	"bat": "BAT0",
+	"format": "{capacity}% {icon}",
+	"format-charging": "{capacity}% ",
+	"format-plugged": "{capacity}% ",
+	"format-alt": "{time} {icon}",
+	// "format-good": "", // An empty format will hide the module
+	// "format-full": "",
+	"format-icons": ["", "", "", "", ""]
+},
+
+"network": {
+	// "interface": "wlp2*", // (Optional) To force the use of this interface
+	"format-wifi": "{essid} ({signalStrength}%) ",
+	"format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+	"format-linked": "{ifname} (No IP) ",
+	"format-disconnected": "Disconnected ⚠",
+	"format-alt": "{ifname}: {ipaddr}/{cidr}"
+},
+
+"pulseaudio": {
+	// "scroll-step": 1, // %, can be a float
+	"format": "{volume}% {icon} {format_source}",
+	"format-bluetooth": "{volume}% {icon} {format_source}",
+	"format-muted": " {format_source}",
+	"format-source": "{volume}% ",
+	"format-source-muted": "",
+	"format-icons": {
+		"headphones": "",
+		"handsfree": "",
+		"headset": "",
+		"phone": "",
+		"portable": "",
+		"car": "",
+		"default": ["", "", ""]
+	},
+	"on-click": "pavucontrol"
+}
+}

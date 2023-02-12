@@ -1,0 +1,137 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+	/*background-color: transparent;*/
+	background-color: rgba(0, 0, 0, 0);
+	color: #e7e7e7;
+}
+
+window#waybar {
+/*    border-top: 3px solid rgba(50, 21.5, 29, 1);*/
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+window#waybar.hidden {
+    /*opacity: 0.5;*/
+}
+
+/*
+window#waybar.empty {
+    background-color: transparent;
+}
+window#waybar.solo {
+    background-color: #FFFFFF;
+}
+*/
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button {
+    padding: 0 5px;
+	color: #e7e7e7;
+}
+
+#workspaces button.focused {
+    border-bottom: 3px solid #e7e7e7;
+}
+
+#workspaces button.urgent {
+	background-color: #84394f;
+}
+
+#mode {
+    background-color: #84394f;
+}
+
+#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor {
+    padding: 0 15px;
+	border-right: 2px solid #e7e7e7;
+    color: #e7e7e7;
+}
+
+#clock {
+}
+
+#battery {
+}
+
+#battery.charging {
+	/* yellow on gray */
+    background-color: #f0932b;
+
+    color: #d8c927;
+    /*background-color: #65645e;*/
+}
+
+@keyframes blink {
+    to {
+        background-color: #84394f;
+    }
+}
+
+#battery.critical:not(.charging) {
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+}
+
+#memory {
+}
+
+#backlight {
+}
+
+#network {
+}
+
+#network.disconnected {
+    background-color: #84394f;
+}
+
+#pulseaudio {
+}
+
+#pulseaudio.muted {
+    background-color: #84394f;
+}
+
+#temperature {
+}
+
+#temperature.critical {
+    background-color: #84394f;
+}
+
+#tray {
+	border-right: none;
+}
+
+#idle_inhibitor {
+}
+
+#idle_inhibitor.activated {
+    background-color: #84394f;
+}
+
+#mpd {
+}
+
+#mpd.disconnected {
+}
+
+#mpd.stopped {
+}
+
+#mpd.paused {
+}

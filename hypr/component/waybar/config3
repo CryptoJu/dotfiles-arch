@@ -1,0 +1,241 @@
+// =============================================================================
+
+//
+
+// Waybar configuration
+
+//
+
+// Configuration reference: https://github.com/Alexays/Waybar/wiki/Configuration
+
+//
+
+// =============================================================================
+
+{
+
+    // -------------------------------------------------------------------------
+
+    // Global configuration
+
+    // -------------------------------------------------------------------------
+
+    "layer": "top",
+
+    "position": "bottom",
+
+    // If height property would be not present, it'd be calculated dynamically
+
+    "height": 35,
+
+    "modules-left": [
+
+        "custom/power",
+
+        "clock"
+
+    ],
+
+    "modules-center": [
+
+        "sway/workspaces",
+
+        "sway/mode"
+
+    ],
+
+    "modules-right": [
+
+        "mpd",
+
+        "pulseaudio",
+
+        "custom/stats",
+
+        "custom/vpn",
+
+        "network#all",
+
+        "tray"
+
+    ],
+
+    // -------------------------------------------------------------------------
+
+    // Modules
+
+    // -------------------------------------------------------------------------
+
+    "custom/stats": {
+
+        "exec": "~/bin/health",
+
+        "interval": 6,
+
+        "return-type": "json",
+
+        "on-click": "alacritty -e htop"
+
+    },
+
+    "clock": {
+
+      //"interval": 10,
+
+      //"format": " {:%a %d/%m %H:%M}", // Icon: calendar-alt
+
+      "format": "{:%a %d/%m %H:%M}", // Icon: calendar-alt
+
+      "tooltip-format": "<big>{:%A %d %B %Y}</big>\n<tt><small>{calendar}</small></tt>"
+
+    },
+
+    "network#all": {
+
+        "interval": 5,
+
+        "format-wifi": " {signalStrength}%", // Icon: wifi
+
+        "format-ethernet": " ", // Icon: ethernet
+
+        "format-disconnected": "⚠ Down",
+
+        "tooltip-format-wifi": "Wifi : {essid} - {ifname}: {ipaddr}/{cidr}",
+
+        "tooltip-format-ethernet": "Ethernet : {ifname}: {ipaddr}/{cidr}",
+
+        "tooltip-format-disconnected": "Disconnected",
+
+    },
+
+    "custom/vpn": {
+
+        "interval": 5,
+
+        "tooltip": "false",
+
+        "format": "{}",
+
+        "return-type": "json",
+
+        "exec": "check_vpn"
+
+    },
+
+    "sway/mode": {
+
+        "format": " <span style=\"italic\">{}</span>", // Icon: expand-arrows-alt
+
+        "tooltip": false
+
+    },
+
+    "sway/workspaces": {
+
+        "all-outputs": false,
+
+        "disable-scroll": true,
+
+        "format": "{name}"
+
+    },
+
+    "tray": {
+
+        //"icon-size": 21,
+
+        "spacing": 10
+
+    },
+
+    "pulseaudio": {
+
+        // "scroll-step": 1, // %, can be a float
+
+        "format": "{icon} {volume}%",
+
+        "format-muted": " ",
+
+        "format-icons": {
+
+            "headphone": "",
+
+            "hands-free": "",
+
+            "headset": "",
+
+            "phone": "",
+
+            "portable": "",
+
+            "car": "",
+
+            "default": ["", "", ""]
+
+        },
+
+        "on-click": "pavucontrol",
+
+        "tooltip": false
+
+    },
+
+    "mpd": {
+
+        "format": "♪ {stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}",
+
+        "format-stopped": "♪ ",
+
+        "format-disconnected": "MPD ?",
+
+        "interval": 10,
+
+        "consume-icons": {
+
+            "on": "" // Icon shows only when "consume" is on
+
+        },
+
+        "random-icons": {
+
+            "on": ""
+
+        },
+
+        "repeat-icons": {
+
+            "on": ""
+
+        },
+
+        "single-icons": {
+
+            "on": "1"
+
+        },
+
+        "state-icons": {
+
+            "paused": "",
+
+            "playing": ""
+
+        },
+
+        "tooltip-format": "{artist} : {title} - {album} - {elapsedTime:%M:%S}/{totalTime:%M:%S}",
+
+        "tooltip-format-disconnected": "Mpd est déconnecté ..."
+
+    },
+
+    "custom/power": {
+
+        "format": "",
+
+        "tooltip": false,
+
+        "on-click": "~/bin/wofi-power"
+
+    }
+
+}
